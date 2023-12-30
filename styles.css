@@ -4,11 +4,14 @@
 }
 
 header {
+    background-color: yellow;
     display: flex;
+    padding: 120px 120px 0px 120px;
+    
 }
 
 header {
-    margin: 70px 100px;
+    /* margin: 70px 100px; */
 }
 
 h1 {
@@ -20,11 +23,8 @@ h1 {
 }
 
 
-.heading-flower {
-    padding-left: 50px;
-    width: 635px;
-    height: 500px;
-    /* flex-shrink: 0; */
+.heading-flower{
+    padding: 0px;
 
 }
 
@@ -49,4 +49,15 @@ button {
 }
 .second-part{
     text-align: center;
+    
+}
+.three-flowers{
+    display: flex;
+    margin: 20 px;
+}
+
+.three-flowers{
+    justify-content: center;
+    padding: auto 50px 0px 50px;
+}
 }
